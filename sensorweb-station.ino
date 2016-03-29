@@ -104,7 +104,8 @@ int transmitPM10(char *thebuf)
   return PM10Val;
 }
 
-
+// For httpclient usage reference
+/*
 void loop() {
     if (nextTime > millis()) {
         return;
@@ -130,4 +131,4 @@ void loop() {
 
     nextTime = millis() + 10000;
 }
-
+*/
